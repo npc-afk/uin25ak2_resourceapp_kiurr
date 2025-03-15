@@ -1,0 +1,102 @@
+body {
+    background: #E5E8EC;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+ 
+  .layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  nav {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    gap: 0.5rem;
+    justify-content: center;
+    padding-left: 2.45rem;
+  }
+  
+  nav a {
+    flex: 1; 
+    background: #2A324B;
+    color: white;
+    padding: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: all 0s;
+    
+  }
+  
+  nav a.active {
+    background: white; 
+    color: #2A324B; 
+    font-weight: bold;
+    flex: 1; 
+  }
+  
+  
+  main {
+    background: white;
+    color: #2A324B;
+    padding: 3rem;
+    padding-right: 1.9rem;
+    width: 80%; 
+    max-width: 900px;
+    margin-top: 0; 
+  }
+  
+ 
+  main > div {
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+  }
+  
+  li {
+    list-style-type: disc;
+    margin-bottom: 0.5rem;
+  }
+  
+  a {
+    color: #58699D; 
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #58699D; 
+  }
+  
