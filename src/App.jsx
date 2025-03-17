@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Layout>
         <Routes>
-          <Route path="/" element={<Navigate to="/html" replace />} />
+          <Route path="/" element={<Navigate to="/html" replace />} /> {/*Sånn at den skal starte rett på HTML istedet for en blank seksjon*/}
           <Route path="/html" element={<Resources category="html" />} />
           <Route path="/css" element={<Resources category="css" />} />
           <Route path="/javascript" element={<Resources category="javascript" />} />
